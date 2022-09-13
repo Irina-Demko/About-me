@@ -121,7 +121,7 @@ tr {
     background-color: #F3F7EA;
 }
 
-a {
+.place a {
     color: black;
     font-weight: 700;
     font-size: 1.5rem;
@@ -142,13 +142,13 @@ img {
     max-width: 1000px;
 }
 
-a:hover {
+.place a:hover {
     background-color: #FFA60D;
     border: none;
     color: white;
 }
 
-i {
+td i {
     color: #FE3447;
     font-size: 1.5rem;
 }
@@ -163,6 +163,14 @@ footer p {
 
 footer {
     background-color: #F4D257;
+}
+
+.down {
+    position: fixed;
+    font-size: 1.75rem;
+    bottom: 30px;
+    right: 35px;
+    color: #F4D257;
 }
 
 @media screen and (max-width: 865px) {
@@ -194,7 +202,7 @@ footer {
         width: 70px;
         height: 70px;
     }
-    i {
+    td i {
         color: #FE3447;
         font-size: 1.2rem;
     }
@@ -202,7 +210,7 @@ footer {
         padding: 50px 0;
         font-size: 1.4rem;
     }
-    a {
+    .place a {
         font-size: 1.2rem;
         max-width: 400px;
     }
@@ -239,14 +247,14 @@ footer {
         width: 60px;
         height: 60px;
     }
-    i {
+    td i {
         color: #FE3447;
         font-size: 1rem;
     }
     .place {
         font-size: 1rem;
     }
-    a {
+    .place a {
         font-size: 1rem;
         max-width: 350px;
         height: 70px;
@@ -301,13 +309,13 @@ footer {
         width: 45px;
         height: 45px;
     }
-    i {
+    td i {
         font-size: .7rem;
     }
     .place {
         font-size: .85rem;
     }
-    a {
+    .place a {
         font-size: .8rem;
         max-width: 250px;
         height: 60px;
