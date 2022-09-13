@@ -28,6 +28,7 @@ h1 {
 
 span {
     font-size: 2rem;
+    padding: ;
 }
 
 .number {
@@ -55,7 +56,7 @@ span {
     display: block;
     border-top: 0.7px solid #737373;
     width: 180px;
-    margin: 15px auto 5px;
+    margin: 0px auto 5px;
 }
 
 .arrow-1::after {
@@ -140,12 +141,6 @@ img {
     margin: 30px 0;
     width: 100%;
     max-width: 1000px;
-}
-
-.place a:hover {
-    background-color: #FFA60D;
-    border: none;
-    color: white;
 }
 
 td i {
@@ -337,7 +332,7 @@ footer {
     .arrow-1::before {
         content: "";
         width: 110px;
-        margin: 10px auto 0px;
+        margin: 0px auto 0px;
     }
     .arrow-1::after {
         content: "";
