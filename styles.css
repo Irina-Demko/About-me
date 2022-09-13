@@ -28,7 +28,6 @@ h1 {
 
 span {
     font-size: 2rem;
-    padding: ;
 }
 
 .number {
@@ -40,7 +39,7 @@ span {
     display: block;
     border-top: 0.7px solid #737373;
     width: 110px;
-    margin: 15px auto 5px;
+    margin: 10px auto 0px;
 }
 
 .arrow-2::after {
@@ -56,7 +55,7 @@ span {
     display: block;
     border-top: 0.7px solid #737373;
     width: 180px;
-    margin: 0px auto 5px;
+    margin: 0px auto 0px;
 }
 
 .arrow-1::after {
